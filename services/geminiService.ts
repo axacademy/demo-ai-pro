@@ -1,8 +1,6 @@
-
 import { GoogleGenAI, GenerateContentResponse, Type } from '@google/genai';
 import type { StepResult } from '../types';
 
-// FIX: Initialize GoogleGenAI with the API key from environment variables.
 const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
 
 const model = 'gemini-2.5-flash';

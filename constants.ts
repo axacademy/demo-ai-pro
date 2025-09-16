@@ -3,7 +3,6 @@ export const STEPS = [
   { number: 2, title: 'AI 활용 이유 분석', description: 'AI의 필요성과 타당성을 분석합니다.' },
   { number: 3, title: '비즈니스 기회도출', description: 'AI로 설계 가능한 기회를 찾습니다.' },
   { number: 4, title: '프로젝트 실행 전략', description: 'AI 프로젝트 구상과 실행 전략을 구성합니다.' },
-  // FIX: Corrected the key for step 5 from "'UX 상세 설계'" to "title".
   { number: 5, title: 'UX 상세 설계', description: 'AI 프로젝트의 사용자 경험을 설계합니다.' },
   { number: 6, title: 'UI 프로토타입 제작', description: '설계된 UX를 기반으로 UI 시안을 제작합니다.' },
   { number: 7, title: '최종 프로젝트 기획', description: '전체 내용을 종합하여 최종 기획서를 완성합니다.' },
