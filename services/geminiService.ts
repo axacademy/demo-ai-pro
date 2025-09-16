@@ -1,7 +1,9 @@
 import { GoogleGenAI, GenerateContentResponse, Type } from '@google/genai';
 import type { StepResult } from '../types';
 
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+// NOTE: A valid API key is required for the application's AI features to function.
+// Replace "YOUR_API_KEY" with your actual Google AI API key.
+const ai = new GoogleGenAI({ apiKey: "YOUR_API_KEY" });
 
 const model = 'gemini-2.5-flash';
 const imageModel = 'imagen-4.0-generate-001';
